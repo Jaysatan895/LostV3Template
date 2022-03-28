@@ -37,9 +37,13 @@ namespace LostAdventure
             {
                 page = 4;
             }
-            else if (page == 3) 
+            else if (page == 3)
             {
                 page = 1;
+            }
+            else if (page == 5) 
+            {
+                page = 6;
             }
             else if (page == 4) 
             {
@@ -55,9 +59,12 @@ namespace LostAdventure
             }
             else if (page == 7) 
             {
-                page = 1;
+                page = 98;
             }
-
+            else if (page == 98)
+            {
+                page =1;
+            }
 
             /// Display text and game options to screen based on the 
             /// current page
@@ -74,15 +81,11 @@ namespace LostAdventure
             {
                 page = 3;
             }
-            else if (page == 2)
+            else if (page == 2 )
             {
                 page = 5;
             }
-            else if (page == 3)
-            {
-                page = 99;
-            }
-            else if (page == 4)
+            else if (page == 3 )
             {
                 page = 99;
             }
@@ -90,15 +93,26 @@ namespace LostAdventure
             {
                 page = 7;
             }
-            else if (page == 6)
-            {
-                page = 99;
-            }
             else if (page == 7)
             {
-                page = 99;
+                page =10;
             }
+            else if (page ==4 )
+            {
+                page = 3;
+            }
+            else if (page ==5 )
+            {
+                page =6 ;
+            }
+            else if (page == 5) 
+            {
+                page = 7;
+            }
+            
+                
 
+           
 
             /// Display text and game options to screen based on the 
             /// current page
@@ -112,58 +126,83 @@ namespace LostAdventure
             switch (page)
             {
                 case 1:
-                    outputLabel.Text = "You are lost in a forest.";
-                    option1Label.Text = "Go north";
-                    option2Label.Text = "Go south";
-
-                    imageBox.Image = Properties.Resources.deepBrush;
-                    SoundPlayer player = new SoundPlayer(Properties.Resources.jungle);
-                    player.Play();
-
+                    outputLabel.Text = "You are walking to the bank.";
+                    option1Label.Text = "Cross the Street";
+                    option2Label.Text = "Go left";
+                    imageBox.Image = Properties.Resources.walking;
                     break;
                 case 2:
-                    outputLabel.Text = "You come to a lake. Do you want to drink?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
+                    outputLabel.Text = "You see the Bank Of Montreal?";
+                    option1Label.Text = "Turn Left";
+                    option2Label.Text = "Go inside";
 
-                    imageBox.Image = Properties.Resources.forestLake;
+                    imageBox.Image = Properties.Resources.BMO_roundel;
                     SoundPlayer player2 = new SoundPlayer(Properties.Resources.brook);
                     player2.Play();
 
                     break;
                 case 3:
-                    outputLabel.Text = "You fall in a pit and die. Play again?";
+                    outputLabel.Text = "You get lost and stabbed by a homeless junkie. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.hobo;
                     break;
                 case 4:
-                    outputLabel.Text = "The water is stagnant. You die of cholera. Play again?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
+                    outputLabel.Text = "You see a homeless man begging for change.";
+                    option1Label.Text = "Give Him Change?";
+                    option2Label.Text = "Turn Right";
+                    imageBox.Image = Properties.Resources.hobo2;
                     break;
                 case 5:
-                    outputLabel.Text = "A horse swims by. Do you try and ride it?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
+                    outputLabel.Text = "You see a security guard";
+                    option1Label.Text = "Go for his gun";
+                    option2Label.Text = "Ignore him";
+                    imageBox.Image = Properties.Resources.guard;
                     break;
                 case 6:
-                    outputLabel.Text = "You tame the horse and ride to safety. Play again?";
+                    outputLabel.Text = "You get tackled and arrested. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
                 case 7:
-                    outputLabel.Text = "The horse walks away. You die of lonliness";
+                    outputLabel.Text = "You walk up to the tellers desk";
+                    option1Label.Text = "Make a deposit";
+                    option2Label.Text = "Scream at the lady";
+                    break;
+                case 8:
+                    outputLabel.Text = "";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
+
+                case 9:
+                    outputLabel.Text = "Walk home or walk to the bank?";
+                    option1Label.Text = "home";
+                    option2Label.Text = "Bank";
+                    break;
+                case 10:
+                    outputLabel.Text = "You get banned from the bank for life. play again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 11:
+                    outputLabel.Text = "Walk to the bank or walk back home?";
+                    option1Label.Text = "To the bank";
+                    option2Label.Text = "Home";
+                    break;
+                case 98:
+                    outputLabel.Text = "You deposit all your money and go home. you win. play again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+
                 case 99:
-                    outputLabel.Text = "Thank you for playing.";
+                    outputLabel.Text = "Thanks?";
                     option1Label.Text = "";
                     option2Label.Text = "";
                     break;
-                default:
-                    break;
             }
+
         }
     }
 }

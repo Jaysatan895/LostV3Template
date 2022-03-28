@@ -142,7 +142,7 @@ namespace LostAdventure
 
                     break;
                 case 3:
-                    outputLabel.Text = "You get lost and stabbed by a homeless junkie. Play again?";
+                    outputLabel.Text = "You get lost and stabbed by a homeless junkie. Play again?";//
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     imageBox.Image = Properties.Resources.hobo;

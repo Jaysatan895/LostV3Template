@@ -138,7 +138,7 @@ namespace LostAdventure
 
                     imageBox.Image = Properties.Resources.BMO_roundel;
                     
-                    player2.Play();
+                    
 
                     break;
                 case 3:

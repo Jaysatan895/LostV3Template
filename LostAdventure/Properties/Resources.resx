@@ -124,6 +124,9 @@
   <data name="arrowRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrowRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="banker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -17611,6 +17614,9 @@
         AP//AgD//wEA//8BAP//AQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACw==
 </value>
   </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="deepBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deepBrush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -17628,6 +17634,9 @@
   </data>
   <data name="hobo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hobo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jungle" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -33804,6 +33813,9 @@
         biBFZGlzb24uAABJU0ZUBwAAAEVkaXNvbgAACw==
 </value>
   </data>
+  <data name="loser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="red_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -34025,6 +34037,9 @@
         uwwodyC4HPY4pUqvHoDLs0E+n29zHbxySXA6Y8DpKyun/KRWSksYIrq6G+d8O6gyyuzYDYHJpUq7j9hP
         R//Z
 </value>
+  </data>
+  <data name="winner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yellow_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yellow_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

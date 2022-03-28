@@ -163,11 +163,15 @@ namespace LostAdventure
                     outputLabel.Text = "You get tackled and arrested. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.loser;
                     break;
                 case 7:
                     outputLabel.Text = "You walk up to the tellers desk";
                     option1Label.Text = "Make a deposit";
                     option2Label.Text = "Scream at the lady";
+                    imageBox.Image = Properties.Resources.banker;
+
+
                     break;
                 case 8:
                     outputLabel.Text = "";
@@ -179,21 +183,25 @@ namespace LostAdventure
                     outputLabel.Text = "Walk home or walk to the bank?";
                     option1Label.Text = "home";
                     option2Label.Text = "Bank";
+                    imageBox.Image = Properties.Resources.cross;
                     break;
                 case 10:
                     outputLabel.Text = "You get banned from the bank for life. play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.loser;
                     break;
                 case 11:
                     outputLabel.Text = "Walk to the bank or walk back home?";
                     option1Label.Text = "To the bank";
                     option2Label.Text = "Home";
+                    imageBox.Image = Properties.Resources.cross;
                     break;
                 case 98:
                     outputLabel.Text = "You deposit all your money and go home. you win. play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.winner;
                     break;
 
                 case 99:

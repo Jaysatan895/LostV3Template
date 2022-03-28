@@ -137,7 +137,7 @@ namespace LostAdventure
                     option2Label.Text = "Go inside";
 
                     imageBox.Image = Properties.Resources.BMO_roundel;
-                    SoundPlayer player2 = new SoundPlayer(Properties.Resources.brook);
+                    
                     player2.Play();
 
                     break;
@@ -172,12 +172,12 @@ namespace LostAdventure
                     imageBox.Image = Properties.Resources.banker;
 
 
-             //       break;
-            //    case 8:
-             //       outputLabel.Text = "";
-             //       option1Label.Text = "Yes";
-              //      option2Label.Text = "No";
-              //      break;
+                 break;
+                case 8:
+                   outputLabel.Text = "";
+                    option1Label.Text = "Yes";
+                  option2Label.Text = "No";
+                   break;
 
                 case 9:
                     outputLabel.Text = "Walk home or walk to the bank?";
